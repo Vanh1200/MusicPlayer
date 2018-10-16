@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_song_icon"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/bg_disk_song" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ln_info_song_item"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_song_icon"
+        android:layout_toLeftOf="@id/iv_more_option_item_song">
+        <TextView
+            android:id="@+id/tv_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#000000"
+            android:text="nothing in your eye"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/tv_song_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#5d5d5d"
+            android:text="Mr.T"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_more_option_item_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_more_vert_black_24dp"/>
+
+</RelativeLayout>

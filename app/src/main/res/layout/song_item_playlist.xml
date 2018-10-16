@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/tv_seq_number"
+        android:text="10"
+        android:textColor="@color/gray_300"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/ln_info_song_item_playlist"
+        android:layout_alignTop="@id/ln_info_song_item_playlist"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ln_info_song_item_playlist"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tv_seq_number"
+        android:layout_toLeftOf="@id/iv_more_option_item_song"
+        android:paddingLeft="10dp"
+        android:paddingRight="25dp">
+        <TextView
+            android:id="@+id/tv_song_name_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:text="nothing in your eye "
+            android:maxLines="1"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/tv_song_artist_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/gray_300"
+            android:text="Mr.T"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
