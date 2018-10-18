@@ -1,1 +1,8 @@
-something null
+Detailed Daily Plan: 18/10/2018
+9 -> 10: hoàn thiện nốt đến branch
+10 -> 11: 4, 5
+11 -> 12: 6, 7
+13 -> 14: 8, 9
+14 -> 15: 10
+15 -> 16: đọc thêm phần quan trọng, rồi sửa báo cáo
+16 -> 17: đọc thêm và làm test cuối ngày
