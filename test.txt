@@ -6,3 +6,6 @@ Detailed Daily Plan: 18/10/2018
 14 -> 15: 10
 15 -> 16: đọc thêm phần quan trọng, rồi sửa báo cáo
 16 -> 17: đọc thêm và làm test cuối ngày
+
+
+commit in issue2
